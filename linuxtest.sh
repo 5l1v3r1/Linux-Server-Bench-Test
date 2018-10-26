@@ -273,7 +273,7 @@ mping(){
 }
 
 benchtest(){
-	if ! wget -qc http://lamp.teddysun.com/files/UnixBench5.1.3.tgz; then
+	if ! wget -qc https://raw.githubusercontent.com/chiakge/Linux-NetSpeed/master/UnixBench5.1.3.tgz; then
 		echo "UnixBench 5.1.3.tgz 下载失败" && exit 1
 	fi
 	tar -xzf UnixBench5.1.3.tgz
